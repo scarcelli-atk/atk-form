@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Orçamento</title>
+</head>
+<body>
+    <h1>Preencha o formulário para solicitar o orçamento</h1>
+    <form method="POST" action="/submit">
+        <label for="full_name">Nome Completo:</label><br>
+        <input type="text" id="full_name" name="full_name" required><br><br>
+
+        <label for="address">Endereço Completo (com CEP):</label><br>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="materials">Materiais/Serviços:</label><br>
+        <input type="text" id="materials" name="materials" required><br><br>
+
+        <label for="installation_location">Local de Instalação das Persianas:</label><br>
+        <input type="text" id="installation_location" name="installation_location" required><br><br>
+
+        <label for="motor_quantity">Quantidade de Motores de Persianas:</label><br>
+        <input type="number" id="motor_quantity" name="motor_quantity" required><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
